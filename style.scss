@@ -1,0 +1,10 @@
+@mixin FlexColumn{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+form{
+    background-color: $bgf;
+    @include FlexColumn();
+}
